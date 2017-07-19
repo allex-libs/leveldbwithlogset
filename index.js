@@ -1,5 +1,5 @@
 function createLDBWLSet (execlib) {
-  return execlib.loadDependencies('client', ['allex:leveldb:lib', 'allex:leveldbwithlog:lib'], createLib.bind(null, execlib));
+  return execlib.loadDependencies('client', ['allex_leveldblib', 'allex_leveldbwithloglib'], createLib.bind(null, execlib));
 }
 
 function createLib (execlib, leveldbwithloglib) {
